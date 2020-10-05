@@ -1,0 +1,15 @@
+#section {
+  position: absolute;
+  left: 50%;
+}
+
+#main {
+  position: absolute;
+  left: 5%;
+  font-size: 15px;
+  font-family: "Courier New";
+}
+
+body {
+  background-color: white;
+}
