@@ -1,10 +1,14 @@
 <html>
   <head>
     <title>Invasive Species in Canada: Asian Carp</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
   </head>
   <body>
     <h1>Asian Carp</h1>
-    <div id="option1">Main Information</div>
+    <p>Made by Anik Chakraborty and Nishit Shah for 7-1</p>
+    <button id="option1" onclick="open1()" disabled>Main Information</button>
+    <button id="option2" onclick="open2()">Miscellaneous Facts</button>
     <div id="section1">
 	    <img src="AsianCarp1.gif"></img>
 	    <img src="AsianCarp2.gif"></img>
@@ -17,7 +21,7 @@
             <img src="foodchain.jpeg"></img>
 	    <p class="subtitle">This is a food chain involving the Asian carp. The sun's energy is consumed by the phytoplankton via photosynthesis, which are then eaten by zooplankton, which are then eaten by Asian carps, which are then eaten by alligator gars.</p>
 
-	    <p>The Asian carp has origins in major river systems in China and Russia, which include the Yangtze, Min, Amur, Pearl and Yellow rivers. Each of the Asian carps had a niche useful for cultivation. The grass carp controlled the vegetation of their area, the Black carp consumedharmful snails, and the Silver and Bighead carps helped reduce undesirable plankton. These rivers range from southern Russia to northern Vietnam with the Asian carp coming along. North American climates are similar to the climates found in these ranges, which would mean Asian carps would have no problem adapting here.</p>
+	    <p>The Asian carp has origins in major river systems in China and Russia, which include the Yangtze, Min, Amur, Pearl and Yellow rivers. Each of the Asian carps had a niche useful for cultivation. The grass carp controlled the vegetation of their area, the Black carp consumed harmful snails, and the Silver and Bighead carps helped reduce undesirable plankton. These rivers range from southern Russia to northern Vietnam with the Asian carp coming along. North American climates are similar to the climates found in these ranges, which would mean Asian carps would have no problem adapting here.</p>
 	    <p>In the early 1970s, aquaculture managers in the southern USA imported the Asian carp for biological contorl of algae, plants, and snails in their ponds. Flooding events occurring after the importation in the southern USA allowed the Asian carp to enter the Mississippi River system from its tributaries. The Mississippi River is an ideal aquatic habitat and is free from any predators the Asian carp would be affected from, which contributed to the Asian carps' spread throughout the river system. In the span of twenty years, they have reached the Illinois River and its tributaries. Now, most of the Asian carps threaten the Canadian Great Lakes. Some have managed to infiltrate it.</p>
 	    <h2>WHY</h2>
 	    <p>Silver and Bighead carps have been outcompeting native fish in the Mississippi River and area. Being able to consume 5 to 20 percent of their body weight daily, they leave far less microscopic plant and animal life (like phytoplankton and zooplankton) to support other fish.</p>
@@ -29,14 +33,8 @@
 	    <img src="Figure1.jpg"></img>
 	    <p class="subtitle">This figure shows monitoring in the Great Lakes. We use this to collect information about the Asian carp in the region</p>
 	    <p>Three underwater electric barriers have been placed in the waterway connecting Lake Michigan and the Mississippi River Basin to prevent the Asian carps from entering the Great Lakes. The first electric barrier was formed of steel cables. The second and third barriers were formed of two sets of electric arrays. This prevention technique is called electrofishing. There are other techniques to block the spread of the Asian carps. One technique is using hoop nets, fyke nets, and trap nets. These three nets can be used to trap fishes inside mesh closures. Another method is using seine abgs. Seine bags are lengths of fine mesh that are pulled through water to encircle fish. The fish will move into the bag when it is pulled forward. Another method is gill nets. Gill nets are mesh with square openings. Fish are captured when they get stuck in the mesh. One last method is using bongo nets and larval light traps. These two traps are made out of fine mesh and are kind of used just like seine bags, but they trap Asian carp eggs instead.</p>
-	    <h3>BIBLIOGRAPHY</h3>
-	    <p><i>Asian Carp</i>. (nd.). Fisheries and Oceans Canada. Retrieved June 22, 2020, from <a href="https://www.dfo-mpo.gc.ca/species-especes/profiles-profils/asiancarp-carpeasiatique-eng.html">https://www.dfo-mpo.gc.ca/species-especes/profiles-profils/asiancarp-carpeasiatique-eng.html</a></p>
-	    <p><i>Asian Carps</i>. (nd.). Invasive Species Centre. <a href="https://www.invasivespeciescentre.ca/invasive-species/meet-the-species/fish-and-invertebrates/asian-carps/">https://www.invasivespeciescentre.ca/invasive-species/meet-the-species/fish-and-invertebrates/asian-carps/</a></p>
-	    <p>Flesher, J. (2011, April 8). <i>Army Corps activates new Asian carp barrier</i>. CBC. <a href="">https://www.cbc.ca/news/canada/windsor/army-corps-activates-new-asian-carp-barrier-1.1007829<a></p>
-	    <p><i>Prevention Techniques</i>. (nd.). Asian Carp Canada. Retrieved November 17, 2020, from <a href="https://asiancarp.ca/surveillance-prevention-and-response/prevention-techniques/">https://asiancarp.ca/surveillance-prevention-and-response/prevention-techniques/</a></p>
-	    <p></p>
     </div>
-    <div id="option2">Miscellaneous Facts</div>
+
     <div id="section2">
     	<ul>
 		<li>Bighead and Silver carp have their eyes <u>below</u> their eyes</li>
@@ -47,5 +45,15 @@
 		<li>An individual Asian carp can grow up to 80 kilograms</li>
 	</ul>
     </div>
+	<div class="bibliography">
+	    <h3>BIBLIOGRAPHY</h3>
+	    <p><i>Asian Carp</i>. (nd.). Fisheries and Oceans Canada. Retrieved June 22, 2020, from <a href="https://www.dfo-mpo.gc.ca/species-especes/profiles-profils/asiancarp-carpeasiatique-eng.html">https://www.dfo-mpo.gc.ca/species-especes/profiles-profils/asiancarp-carpeasiatique-eng.html</a></p>
+	    <p><i>Asian Carps</i>. (nd.). Invasive Species Centre. <a href="https://www.invasivespeciescentre.ca/invasive-species/meet-the-species/fish-and-invertebrates/asian-carps/">https://www.invasivespeciescentre.ca/invasive-species/meet-the-species/fish-and-invertebrates/asian-carps/</a></p>
+	    <p>Flesher, J. (2011, April 8). <i>Army Corps activates new Asian carp barrier</i>. CBC. <a href="">https://www.cbc.ca/news/canada/windsor/army-corps-activates-new-asian-carp-barrier-1.1007829<a></p>
+	    <p><i>Prevention Techniques</i>. (nd.). Asian Carp Canada. Retrieved November 17, 2020, from <a href="https://asiancarp.ca/surveillance-prevention-and-response/prevention-techniques/">https://asiancarp.ca/surveillance-prevention-and-response/prevention-techniques/</a></p>
+	</div>
   </body>
+  <footer>
+	<script>document.getElementById("section2").style.display = "none"; console.log("a")</script>
+  </footer>
 </html>
