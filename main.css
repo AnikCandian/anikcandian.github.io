@@ -1,0 +1,94 @@
+body {
+	margin: 0;
+}
+
+#header {
+	background-color: #949494;
+	font-size: 100%;
+	align-items: center;
+	display: flex;
+	text-align: center;
+	color: black;
+	
+}
+
+#header > a {
+	margin: 0% 1%;
+}
+
+.banner {
+	padding-top: 25%:
+	padding-bottom: 5%;
+	display: grid;
+}
+
+.background {
+	background-color: rgba(0,0,0,0.8);
+	padding-bottom: 2.5%;
+	padding-top: 2.5%;
+}
+
+#main {
+	padding-top: 25%;
+	background-image: url("assets/leader-banner.png");
+	size: 100% 50%;
+	background-size: cover;
+	color: white;
+	background-position: 0% 100%;
+}
+
+#platform {
+	padding-top: 25%;
+	background-image: url("assets/welcoming.jpg");
+	size: 100% 50%;
+	background-size: cover;
+	color: white;
+}
+
+#leader {
+	padding-top: 25%;
+	background-image: url("assets/leader.png");
+	size: 100% 50%;
+	background-size: cover;
+	color: white;
+}
+
+.banner > h1 {
+	color: white;
+}
+
+.big_padding {
+	padding: 30%;
+	visibility: hidden;
+}
+
+.small_padding {
+	padding: 2.5%;
+	visibility: hidden;
+}
+
+a:link, a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.banner > div >  p > a:link, .banner > div > p > a:visited {
+	color: #add8e6;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	color: white;
+	text-decoration: none;
+}
+
+.banner > div > p > a:hover, .banner > div > p > a:active {
+	color: #ffcccb;
+	text-decoration: none;
+}
+
+footer {
+	background-color: black;
+	color: white;
+	padding: 1%;
+}
